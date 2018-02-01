@@ -11,8 +11,8 @@ import javax.swing.JOptionPane;
  */
 public class Metodos {
 
-    private int mayor;
-    private int menor;
+    private static int mayor;
+    private static int menor;
 
     public int getMayor() {
         return mayor;

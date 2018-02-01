@@ -37,6 +37,7 @@ public class ExemploArrayLista {
                     obx.amosarIterador(listaNum);
                     break;
                 case 3:
+                    System.exit(0);
                     break;
                 case 4:
                     obx.borrarElemento(listaNum);
@@ -63,7 +64,7 @@ public class ExemploArrayLista {
                     break;
             }
         } while (op != 3);
-       // System.out.println("***********-MENÚ-***********\n1)Añadir elemento a la lista\n2)Visualizar\n3)Salir\n4)Borrar posición\n5)Borrar elemento\n6)Mudar valor posición\n7)Mudar valor");
+        // System.out.println("***********-MENÚ-***********\n1)Añadir elemento a la lista\n2)Visualizar\n3)Salir\n4)Borrar posición\n5)Borrar elemento\n6)Mudar valor posición\n7)Mudar valor");
         //op = Integer.parseInt(JOptionPane.showInputDialog("Elige una opción :"));
 
     }
